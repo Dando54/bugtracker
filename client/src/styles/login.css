@@ -1,0 +1,76 @@
+.loginDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 25%;
+  height: 550px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  margin: 0 auto;
+  margin-top: 200px;
+  display: block;
+  color: #393e46;
+}
+
+.registration {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.registration input {
+  width: 45%;
+}
+
+.registration button {
+  margin-top: 25px;
+  width: 55%;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  background-color: #00adb5;
+  color: #f1faee;
+  font-weight: bold;
+  text-transform: uppercase;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.registration button:active {
+  background-color: #0085c3;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 35px;
+}
+
+.login input {
+  width: 45%;
+}
+
+.login button {
+  margin-top: 25px;
+  width: 55%;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  background-color: #00adb5;
+  color: #f1faee;
+  font-weight: bold;
+  text-transform: uppercase;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.login button:active {
+  background-color: #0085c3;
+}
+
+.loginStatus {
+  color: #ff2e63;
+  margin-top: 45px;
+  font-size: 2rem;
+  text-align: center;
+}

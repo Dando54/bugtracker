@@ -1,0 +1,91 @@
+.adminPage {
+  height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.cerereBtn {
+  border: none;
+  padding: 1.2rem;
+  width: 20%;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-top: 25px;
+}
+
+.backgroundColorTst {
+  display: none;
+}
+.backgroundColorMp {
+  display: none;
+}
+
+.mpRequests {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  color: #222831;
+  font-weight: bold;
+}
+
+.mpRequestDiv {
+  display: flex;
+  width: 100%;
+  margin-top: 15px;
+  height: 40px;
+}
+
+.mpRequest {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 7px;
+}
+
+.mpRequest p {
+  margin: 0;
+}
+
+.mpRequest button {
+  height: 100%;
+  border-radius: 7px;
+  border: none;
+}
+
+/* tst */
+
+.tstRequests {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  color: #222831;
+  font-weight: bold;
+}
+
+.tstRequestDiv {
+  display: flex;
+  width: 100%;
+  margin-top: 15px;
+  height: 40px;
+}
+
+.tstRequest {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 7px;
+}
+
+.tstRequest p {
+  margin: 0;
+}
+
+.tstRequest button {
+  height: 100%;
+  border-radius: 7px;
+  border: none;
+}
